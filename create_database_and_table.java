@@ -18,8 +18,8 @@ public class create_database_and_table {
 
             PreparedStatement stmt1=con.prepareStatement("insert into details values(101,?,20,?)");
 
-            stmt1.setString(1,"Akash");
-            stmt1.setString(2,"Akku Home");
+            stmt1.setString(1,"Sidharth");
+            stmt1.setString(2,"Sidharth V");
             int d =stmt1.executeUpdate();
             System.out.print(d);
 
